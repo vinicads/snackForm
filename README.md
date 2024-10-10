@@ -1,11 +1,43 @@
-# Sample Snack app
+# Quiz Educacional
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um aplicativo de quiz educacional em React Native, onde os usuários podem testar seus conhecimentos em Matemática, Biologia, Química e Português.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Funcionalidades
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Questionários para quatro disciplinas.
+- Exibição da quantidade de acertos por disciplina.
+- Porcentagem total de acertos.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tecnologias
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **React Native**
+- **React Navigation**
+- **react-native-paper**
+- **react-native-elements**
+- **@react-native-picker/picker**
+
+## Instalação
+
+1. Clone o repositório:
+   git clone https://github.com/vinicads/snackForm.git
+   cd snackForm
+
+2. Instale as dependências:
+   npm install
+
+3. Execute o aplicativo:
+   npx react-native run-android  # Para Android
+   npx react-native run-ios      # Para iOS
+
+## Estrutura do Projeto
+snackForm/
+├── App.js                # Arquivo principal
+├── components/           # Componentes dos quizzes
+│   ├── Matematica.js
+│   ├── Biologia.js
+│   ├── Quimica.js
+│   ├── Portugues.js
+│   └── Resultado.js
+└── package.json          # Configuração do projeto
+
+
